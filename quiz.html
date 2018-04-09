@@ -1,10 +1,9 @@
 <html>
-<h1>Sample quiz </h1>
+<h1>Midterm Survey Quiz </h1>
 <body>
 <script>
-var answers = ["B","B","A","C","D","C","C","D","A","C"], 
+var answers = ["B","B","A","C","D","C","C","D","A","C","B","D","C","A","A","D","C","B","A","A"], 
     tot = answers.length;
-
 function getValue( radioName ){
     var radios = document.getElementsByName( radioName ); 
     for(var y=0; y<radios.length; y++)
@@ -17,7 +16,6 @@ function getScore(){
     if(getValue("question"+i)===answers[i]) score += 1;
   return score;
 }
-
 function returnScore(){
   alert("Your score is "+ getScore() +"/"+ tot);
 }
@@ -32,6 +30,7 @@ function returnScore(){
     <input type="radio" name="question0" value="C">To Perform Server Side Scripting Opertion<br>
     <input type="radio" name="question0" value="D">To Execute Query Related to DB on Server<br>
   </li>
+  
   <li>
     <h3>JavaScript is an ___ language.</h3>
     <input type="radio" name="question1" value="A">compiled<br>
@@ -39,87 +38,153 @@ function returnScore(){
     <input type="radio" name="question1" value="C">application<br>
     <input type="radio" name="question1" value="D">All of the above<br>
   </li>
+  
   <li>
     <h3>Is JavaScript a case-sensitive language?</h3>
     <input type="radio" name="question2" value="A">True<br>
     <input type="radio" name="question2" value="B">False<br>
-</li>
-</ul>
+  </li>
 
-<ul>
   <li>
     <h3>In JavaScript, how many primitive data types?</h3>
-    <input type="radio" name="question1" value="A">3 types<br>
-    <input type="radio" name="question1" value="B">4 types<br>
-    <input type="radio" name="question1" value="C">5 types<br>
-    <input type="radio" name="question1" value="D">6 types<br>
+    <input type="radio" name="question3" value="A">3 types<br>
+    <input type="radio" name="question3" value="B">4 types<br>
+    <input type="radio" name="question3" value="C">5 types<br>
+    <input type="radio" name="question3" value="D">6 types<br>
   </li>
-</ul>
 
-<ul>
   <li>
     <h3>JavaScript is _________ language.<h3>
-    <input type="radio" name="question1" value="A">Programming<br>
-    <input type="radio" name="question1" value="B">Application<br>
-    <input type="radio" name="question1" value="C">All of the above<br>
-    <input type="radio" name="question1" value="D">Scripting<br>
+    <input type="radio" name="question4" value="A">Programming<br>
+    <input type="radio" name="question4" value="B">Application<br>
+    <input type="radio" name="question4" value="C">All of the above<br>
+    <input type="radio" name="question4" value="D">Scripting<br>
   </li>
-</ul>
 
-<ul>
   <li>
     <h3>How do you insert a JavaScript into a HTML page, which tag is used?<h3>
-    <input type="radio" name="question1" value="A">&lt;script='java'&gt;<br>
-    <input type="radio" name="question1" value="B">&lt;javascript&gt;<br>
-    <input type="radio" name="question1" value="C">&lt;script&gt;<br>
-    <input type="radio" name="question1" value="D">&lt;js&gt;<br>
+    <input type="radio" name="question5" value="A">&lt;script='java'&gt;<br>
+    <input type="radio" name="question5" value="B">&lt;javascript&gt;<br>
+    <input type="radio" name="question5" value="C">&lt;script&gt;<br>
+    <input type="radio" name="question5" value="D">&lt;js&gt;<br>
   </li>
-</ul>
 
-<ul>
   <li>
     <h3>What language defines the behavior of a web page?<h3>
-    <input type="radio" name="question1" value="A">PHTML<br>
-    <input type="radio" name="question1" value="B">CSS<br>
-    <input type="radio" name="question1" value="C">Java Script<br>
-    <input type="radio" name="question1" value="D">XML<br>
+    <input type="radio" name="question6" value="A">PHTML<br>
+    <input type="radio" name="question6" value="B">CSS<br>
+    <input type="radio" name="question6" value="C">Java Script<br>
+    <input type="radio" name="question6" value="D">XML<br>
   </li>
-</ul>
 
-<ul>
   <li>
     <h3> What is the alternate name of java script?<h3>
-    <input type="radio" name="question1" value="A">LimeScript<br>
-    <input type="radio" name="question1" value="B">Both a and d<br>
-    <input type="radio" name="question1" value="C">ECMScript<br>
-    <input type="radio" name="question1" value="D">ECMAScript<br>
+    <input type="radio" name="question7" value="A">LimeScript<br>
+    <input type="radio" name="question7" value="B">Both a and d<br>
+    <input type="radio" name="question7" value="C">ECMScript<br>
+    <input type="radio" name="question7" value="D">ECMAScript<br>
   </li>
-</ul>
 
-<ul>
   <li>
     <h3>Who is the founder of JavaScript?<h3>
-    <input type="radio" name="question1" value="A">Brendan Eich<br>
-    <input type="radio" name="question1" value="B">Tim Berners-Lee<br>
-    <input type="radio" name="question1" value="C">Hakon Wium<br>
-    <input type="radio" name="question1" value="D">None of the above<br>
+    <input type="radio" name="question8" value="A">Brendan Eich<br>
+    <input type="radio" name="question8" value="B">Tim Berners-Lee<br>
+    <input type="radio" name="question8" value="C">Hakon Wium<br>
+    <input type="radio" name="question8" value="D">None of the above<br>
   </li>
-</ul>
 
-<ul>
   <li>
     <h3>JavaScript is formerly called<h3>
-    <input type="radio" name="question1" value="A">LiveScript-Mocha-JavaScript<br>
-    <input type="radio" name="question1" value="B">javaScript-Mocha-LiveScript<br>
-    <input type="radio" name="question1" value="C">JMocha-LiveScript-JavaScript<br>
-    <input type="radio" name="question1" value="D">None of the above<br>
+    <input type="radio" name="question9" value="A">LiveScript-Mocha-JavaScript<br>
+    <input type="radio" name="question9" value="B">javaScript-Mocha-LiveScript<br>
+    <input type="radio" name="question9" value="C">JMocha-LiveScript-JavaScript<br>
+    <input type="radio" name="question9" value="D">None of the above<br>
+  </li>
+
+  <li>
+    <h3>Meaning of the abbreviation CSS <h3>
+    <input type="radio" name="question10" value="A">Client Side Scripting<br>
+    <input type="radio" name="question10" value="B">Cascading Style Sheet<br>
+    <input type="radio" name="question10" value="C">Cascading Script Sheet<br>
+    <input type="radio" name="question10" value="D">Cascading Style Scripting<br>
+  </li>
+
+  <li>
+    <h3>What character is used in using the At-Rules <h3>
+    <input type="radio" name="question11" value="A">%<br>
+    <input type="radio" name="question11" value="B">$<br>
+    <input type="radio" name="question11" value="C">,<br>
+    <input type="radio" name="question11" value="D">none of the above<br>
+  </li>
+
+  <li>
+    <h3>It is consist of a selector, followed by a declaration block,
+ which contains zero or more semi-colon (;)
+ separated declarations which in turn consists of a property name followed by a colon (:),
+ followed by the value. <h3>
+    <input type="radio" name="question12" value="A">CSS Selectors<br>
+    <input type="radio" name="question12" value="B">At-Rules <br>
+    <input type="radio" name="question12" value="C">CSS Rule Set Structure<br>
+    <input type="radio" name="question12" value="D">Combinators<br>
+  </li>
+
+  <li>
+    <h3>It is used to select element of interest<h3>
+    <input type="radio" name="question13" value="A">CSS Selectors<br>
+    <input type="radio" name="question13" value="B">At-Rules <br>
+    <input type="radio" name="question13" value="C">CSS Rule Set Structure<br>
+    <input type="radio" name="question13" value="D">Combinators<br>
+  </li>
+
+  <li>
+    <h3>CSS selectors matched element is called ?<h3>
+    <input type="radio" name="question14" value="A">subject<br>
+    <input type="radio" name="question14" value="B">predicate<br>
+    <input type="radio" name="question14" value="C">adjective<br>
+    <input type="radio" name="question14" value="D">verb<br>
+  </li>
+
+  <li>
+    <h3>All of these are types of Combinators except for one. Which is it ?<h3>
+    <input type="radio" name="question15" value="A">Descendant Combinator<br>
+    <input type="radio" name="question15" value="B">Child Combinator<br>
+    <input type="radio" name="question15" value="C">Sibling Combinators<br>
+    <input type="radio" name="question15" value="D">Dad Combinator<br>
+  </li>
+
+  <li>
+    <h3>A type of selector that matches alements<h3>
+    <input type="radio" name="question16" value="A">attribute selector<br>
+    <input type="radio" name="question16" value="B">universal selector<br>
+    <input type="radio" name="question16" value="C">type selector<br>
+    <input type="radio" name="question16" value="D">element selector<br>
+  </li>
+
+  <li>
+    <h3>A type of selector that matches everything<h3>
+    <input type="radio" name="question17" value="A">attribute selector<br>
+    <input type="radio" name="question17" value="B">universal selector<br>
+    <input type="radio" name="question17" value="C">type selector<br>
+    <input type="radio" name="question17" value="D">element selector<br>
+  </li>
+
+  <li>
+    <h3> /**/ is use when adding CSS Comments<h3>
+    <input type="radio" name="question18" value="A">True<br>
+    <input type="radio" name="question18" value="B">False<br>
+    <input type="radio" name="question18" value="C">Tralse<br>
+    <input type="radio" name="question18" value="D">Fruer<br>
+  </li>
+
+  <li>
+    <h3>Allows programs to be downloaded from a web server and executed in the client environment<h3>
+    <input type="radio" name="question19" value="A">Client-Side Web Scripting<br>
+    <input type="radio" name="question19" value="B">Cascading Style Sheet<br>
+    <input type="radio" name="question19" value="C">Cascading Script Sheet<br>
+    <input type="radio" name="question19" value="D">Cascading Style Scripting<br>
   </li>
 </ul>
 
-
 <button onclick="returnScore()">View Results</button>
-
 </body>
-
-
 </html>
