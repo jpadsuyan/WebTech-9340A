@@ -1,0 +1,125 @@
+<html>
+<h1>Sample quiz </h1>
+<body>
+<script>
+var answers = ["B","B","A","C","D","C","C","D","A","C"], 
+    tot = answers.length;
+
+function getValue( radioName ){
+    var radios = document.getElementsByName( radioName ); 
+    for(var y=0; y<radios.length; y++)
+      if(radios[y].checked) return radios[y].value; 
+}
+//getting score
+function getScore(){
+  var score = 0;
+  for (var i=0; i<tot; i++)
+    if(getValue("question"+i)===answers[i]) score += 1;
+  return score;
+}
+
+function returnScore(){
+  alert("Your score is "+ getScore() +"/"+ tot);
+}
+</script>
+
+
+<ul>
+  <li>
+    <h3>JavaScript is designed for following purpose ?</h3>
+    <input type="radio" name="question0" value="A">To Style HTML Pages<br>
+    <input type="radio" name="question0" value="B">To add interactivity to HTML Pages.<br>
+    <input type="radio" name="question0" value="C">To Perform Server Side Scripting Opertion<br>
+    <input type="radio" name="question0" value="D">To Execute Query Related to DB on Server<br>
+  </li>
+  <li>
+    <h3>JavaScript is an ___ language.</h3>
+    <input type="radio" name="question1" value="A">compiled<br>
+    <input type="radio" name="question1" value="B">interpreted<br>
+    <input type="radio" name="question1" value="C">application<br>
+    <input type="radio" name="question1" value="D">All of the above<br>
+  </li>
+  <li>
+    <h3>Is JavaScript a case-sensitive language?</h3>
+    <input type="radio" name="question2" value="A">True<br>
+    <input type="radio" name="question2" value="B">False<br>
+</li>
+</ul>
+
+<ul>
+  <li>
+    <h3>In JavaScript, how many primitive data types?</h3>
+    <input type="radio" name="question1" value="A">3 types<br>
+    <input type="radio" name="question1" value="B">4 types<br>
+    <input type="radio" name="question1" value="C">5 types<br>
+    <input type="radio" name="question1" value="D">6 types<br>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <h3>JavaScript is _________ language.<h3>
+    <input type="radio" name="question1" value="A">Programming<br>
+    <input type="radio" name="question1" value="B">Application<br>
+    <input type="radio" name="question1" value="C">All of the above<br>
+    <input type="radio" name="question1" value="D">Scripting<br>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <h3>How do you insert a JavaScript into a HTML page, which tag is used?<h3>
+    <input type="radio" name="question1" value="A">&lt;script='java'&gt;<br>
+    <input type="radio" name="question1" value="B">&lt;javascript&gt;<br>
+    <input type="radio" name="question1" value="C">&lt;script&gt;<br>
+    <input type="radio" name="question1" value="D">&lt;js&gt;<br>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <h3>What language defines the behavior of a web page?<h3>
+    <input type="radio" name="question1" value="A">PHTML<br>
+    <input type="radio" name="question1" value="B">CSS<br>
+    <input type="radio" name="question1" value="C">Java Script<br>
+    <input type="radio" name="question1" value="D">XML<br>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <h3> What is the alternate name of java script?<h3>
+    <input type="radio" name="question1" value="A">LimeScript<br>
+    <input type="radio" name="question1" value="B">Both a and d<br>
+    <input type="radio" name="question1" value="C">ECMScript<br>
+    <input type="radio" name="question1" value="D">ECMAScript<br>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <h3>Who is the founder of JavaScript?<h3>
+    <input type="radio" name="question1" value="A">Brendan Eich<br>
+    <input type="radio" name="question1" value="B">Tim Berners-Lee<br>
+    <input type="radio" name="question1" value="C">Hakon Wium<br>
+    <input type="radio" name="question1" value="D">None of the above<br>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <h3>JavaScript is formerly called<h3>
+    <input type="radio" name="question1" value="A">LiveScript-Mocha-JavaScript<br>
+    <input type="radio" name="question1" value="B">javaScript-Mocha-LiveScript<br>
+    <input type="radio" name="question1" value="C">JMocha-LiveScript-JavaScript<br>
+    <input type="radio" name="question1" value="D">None of the above<br>
+  </li>
+</ul>
+
+
+<button onclick="returnScore()">View Results</button>
+
+</body>
+
+
+</html>
