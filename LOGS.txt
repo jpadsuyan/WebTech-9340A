@@ -1,0 +1,147 @@
+commit 9722ce0981207c2fc79ae4c2f804a0daa77d9b1b
+Author: 2161997 <35597192+2161997@users.noreply.github.com>
+Date:   Tue Apr 10 11:56:43 2018 +0800
+
+    added website for midterm
+
+commit 49934da7c18d5ebd0f7f3a11ca2482409d00e69b
+Author: jpadsuyan <fake.seeker15@gmail.com>
+Date:   Tue Apr 10 05:03:07 2018 +0900
+
+    Organized Content of Repository
+
+commit 78bac51c3cc60bee4593e63e347c300100d730c0
+Author: jpadsuyan <33140983+jpadsuyan@users.noreply.github.com>
+Date:   Tue Apr 10 05:48:50 2018 +0900
+
+    Added Questions
+
+commit 5e80fd459b44d255f354498b04a219e78c5e4330
+Author: 2161997 <35597192+2161997@users.noreply.github.com>
+Date:   Mon Apr 9 01:43:31 2018 -0700
+
+    Add files via upload
+
+commit deeb1783f7ad8b77f4a4babbcd10cd3708e5a998
+Author: 2161997 <35597192+2161997@users.noreply.github.com>
+Date:   Sun Apr 8 20:51:00 2018 -0700
+
+    Add files via upload
+
+commit 7588dc73983b73dd8bf3b944d592d243554e664b
+Author: Zyrieh <35597461+Zyrieh@users.noreply.github.com>
+Date:   Mon Apr 9 09:32:30 2018 +0700
+
+    MIDTERM REF HERE
+
+commit 5857c4e49ed0f827e99bbb35307046f1fa9004c5
+Author: 2164538 <35597252+jecocarabit@users.noreply.github.com>
+Date:   Mon Apr 9 10:08:13 2018 +0800
+
+    JavaScript-Content(Addsomeinfo)
+
+commit b0847624bdd6bd18287451dc7f136130d5268e9c
+Author: April Joy Castillo <35598036+2163824@users.noreply.github.com>
+Date:   Sat Apr 7 23:32:15 2018 +0800
+
+    Added JavaScript Contents(Midterms)
+
+commit f34ee4587fb6a6e83fb83ae3d639c2c677cae0c0
+Author: April Joy Castillo <35598036+2163824@users.noreply.github.com>
+Date:   Sat Apr 7 23:31:43 2018 +0800
+
+    Added CSS contents(Midterms)
+
+commit ebbd47c92b75cbee60b31fd0fd8814d2b95d99fe
+Author: Zyrieh <35597461+Zyrieh@users.noreply.github.com>
+Date:   Mon Apr 2 13:13:19 2018 +0700
+
+    Added Performance Criteria(Speed) using Web Grader
+
+commit a5e27580e7d5a167bf85aa8c1e907c08f062b8ef
+Author: 2161997 <35597192+2161997@users.noreply.github.com>
+Date:   Mon Apr 2 11:51:55 2018 +0800
+
+    Add files via upload
+
+commit 2937c439e6cd9b493868292e7aac56bb639c7237
+Author: 2161997 <35597192+2161997@users.noreply.github.com>
+Date:   Mon Apr 2 11:50:29 2018 +0800
+
+    Delete DareBoost.docx
+
+commit e9b7baf4aa0f08f7ca2337fce8be111e7eb56510
+Author: 2161997 <35597192+2161997@users.noreply.github.com>
+Date:   Sun Apr 1 15:47:52 2018 +0800
+
+    Add files via upload
+
+commit 9af32370bed1374e4bf00cb1c915d26396d9aa0c
+Author: Zyrieh <35597461+Zyrieh@users.noreply.github.com>
+Date:   Mon Feb 26 16:06:42 2018 +0800
+
+    Added log history
+
+commit 01fa19e6201adbbb6a6b3b83564447bff2060189
+Author: 2163824 <35598036+2163824@users.noreply.github.com>
+Date:   Mon Feb 26 15:58:53 2018 +0800
+
+    Add files via upload
+    
+    Peer Evaluation- First Deliverable
+
+commit cb1814f3f4b333c66fdc85138a5753d63343e106
+Author: Zyrieh <35597461+Zyrieh@users.noreply.github.com>
+Date:   Mon Feb 26 13:31:45 2018 +0800
+
+    Added activities
+
+commit dd633b66b92b25e882fc49d844dbffa93c7604b3
+Author: wengweng06 <35596689+wengweng06@users.noreply.github.com>
+Date:   Sun Feb 25 20:03:18 2018 -0800
+
+    Additional info on html
+
+commit 356684ad3cdf322d1c18324a736e52b983fa07e2
+Author: wengweng06 <35596689+wengweng06@users.noreply.github.com>
+Date:   Sun Feb 25 19:56:06 2018 -0800
+
+    Add files via upload
+    
+    additional info on html
+
+commit 000eb25590f6a9326f79ac1b799520a30609718f
+Author: 2161997 <35597192+2161997@users.noreply.github.com>
+Date:   Mon Feb 26 11:45:04 2018 +0800
+
+    structure framework? no animation yet
+
+commit 0ac8a026bbca0876c42fc5138f4cb682fe6abc19
+Author: jpadsuyan <fake.seeker15@gmail.com>
+Date:   Sun Feb 25 09:53:21 2018 +0900
+
+    Added Contents About HTTP
+
+commit ff8f9f683814017c0a3ca0c5690e3cb723733ad6
+Author: Zyrieh <35597461+Zyrieh@users.noreply.github.com>
+Date:   Sat Feb 24 11:55:10 2018 +0800
+
+    Added files for background
+
+commit 812beef3fd1c5af884f1ed87c21fc63e6df12d46
+Author: 2164538 <35597252+jecocarabit@users.noreply.github.com>
+Date:   Sat Feb 24 11:48:02 2018 +0800
+
+    Add files via upload
+
+commit d9f21643912d85121a39c5919e139a4fbaf3953b
+Author: 2163824 <35598036+2163824@users.noreply.github.com>
+Date:   Fri Feb 23 12:40:31 2018 +0800
+
+    Added Topic 1 content
+
+commit f30b52311327e72c1c9a195b8a6c3bae3a679efe
+Author: jpadsuyan <fake.seeker15@gmail.com>
+Date:   Fri Feb 23 10:39:47 2018 +0900
+
+    first commit
